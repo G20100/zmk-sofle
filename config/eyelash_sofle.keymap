@@ -62,6 +62,36 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <29 30>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        kk3l {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <42 43>;
+        };
+
+        kk3r {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <47 48>;
+        };
+
+        up_arrow {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <48 49>;
+        };
+
+        f13 {
+            bindings = <&kt F13>;
+            key-positions = <30 31>;
+        };
+
+        f14 {
+            bindings = <&kp F14>;
+            key-positions = <33 34>;
+        };
     };
 
     macros {
