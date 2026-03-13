@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - $$mdi:arrow-up-bold$$
@@ -146,7 +146,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
-  - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -200,19 +200,23 @@ combos:
   k: '&soft_off'
 - p: [62, 63]
   k: $$mdi:arrow-down-bold$$
-- p: [34, 35]
+- p: [35, 36]
   k: {t: ']', s: '}'}
-- p: [29, 30]
+- p: [29, 28]
   k: {t: '[', s: '{'}
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-- p: [42, 43]
+- p: [42, 41]
   k: '{'
-- p: [47, 48]
+- p: [48, 49]
   k: '}'
 - p: [48, 49]
   k: $$mdi:arrow-up-bold$$
-- p: [30, 31]
+- p: [30, 29]
   k: {t: F13, h: toggle}
-- p: [33, 34]
+- p: [34, 35]
   k: F14
+- p: [23, 22]
+  k: )
+- p: [15, 16]
+  k: (
