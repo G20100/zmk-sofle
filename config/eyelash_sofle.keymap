@@ -123,7 +123,7 @@
 &kp F16         &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &lt 1 DEL    &mo 2            &kp BACKSPACE  &kp ENTER  &mo 1      &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
             display-name = "LAYER0";
         };
 
